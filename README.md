@@ -80,23 +80,26 @@ jupyter notebook notebooks/train_test.ipynb
 Architecture are taken from https://smp.readthedocs.io/en/latest/models.html
 . And dataset from [kaggle](kaggle.com)
 ### Example of dataset:
-![Example image](example1.png)
+<img src="example1.png" width="900" height="300"/>
+
 
 
 
 ##  Visual Results 
 Sample test result of a image
-![Example 2](example2.png)
+<img src="example2.png" width="1300" height="300"/>
 
 Evaluation on test data:
 
 ### Mean IoU score:  0.9006
-### Mean IoU score:  0.0663
+### Mean IoU Loss:  0.0663
 
 ### Loss curve
 
-![loss curve](dice_loss.png)
-![Intersection over union score curve](IOU_score.png)
+
+<img src="dice_loss.png" width="500" height="300"/>
+<img src="IOU_score.png" width="500" height="300"/>
+
 
 ## 🧩 Future Improvements
 Add disease classification after segmentation
